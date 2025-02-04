@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp TAB             &kp W         &kp E         &kp R                   &kp T                                                                  &kp Y          &kp U  &kp I                   &kp O    &kp P
-&kp A               &kp S         &kp D         &kp F                   &kp G     &lt_to_layer_0 7 AT               &lt_to_layer_0 7 MINUS     &kp H          &kp J  &kp K                   &kp L    &kp ENTER
-&lt_to_layer_0 7 Z  &kp X         &kp C         &kp V                   &kp B     &lt_to_layer_0 2 EXCLAMATION      &lt_to_layer_0 2 QUESTION  &kp N          &kp M  &lt_to_layer_0 5 COMMA  &kp DOT  &mkp MB1
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 SPACE  &mkp MB1  &mkp MB2                          &lt_to_layer_0 6 GRAVE     &kp BACKSPACE                                          &mkp MB2
+&kp TAB             &kp W           &kp E         &kp R                   &kp T                                                                  &kp Y          &kp U  &kp I                   &kp O    &kp P
+&kp A               &kp S           &kp D         &kp F                   &kp G     &lt_to_layer_0 2 AT               &lt_to_layer_0 2 MINUS     &kp H          &kp J  &kp K                   &kp L    &kp ENTER
+&lt_to_layer_0 7 Z  &kp X           &kp C         &kp V                   &kp B     &lt_to_layer_0 7 EXCLAMATION      &lt_to_layer_0 7 QUESTION  &kp N          &kp M  &lt_to_layer_0 5 COMMA  &kp DOT  &mkp MB1
+&kp LCTRL           &kp LEFT_SHIFT  &kp LEFT_GUI  &lt_to_layer_0 5 SPACE  &mkp MB1  &mkp MB2                          &lt_to_layer_0 6 GRAVE     &kp BACKSPACE                                          &mkp MB2
             >;
         };
 
@@ -114,10 +114,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans          &kp LS(LG(UP_ARROW))  &trans           &trans                                          &trans               &trans          &kp RS(RG(UP_ARROW))  &trans           &trans
-&trans  &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW  &trans              &trans      &trans          &trans               &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW  &trans
-&trans  &trans          &kp DOWN_ARROW        &trans           &kp LG(LEFT_ARROW)  &trans      &trans          &kp RG(RIGHT_ARROW)  &trans          &kp DOWN_ARROW        &trans           &trans
-&trans  &trans          &trans                &trans           &trans              &trans      &kp LEFT_ARROW  &kp RIGHT_ARROW                                                             &trans
+&trans        &trans          &kp LS(LG(UP_ARROW))  &trans           &trans                                          &trans               &trans          &kp RS(RG(UP_ARROW))  &trans           &trans
+&trans        &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW  &trans              &trans      &trans          &trans               &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW  &trans
+&kp LEFT_ALT  &kp TAB         &kp DOWN_ARROW        &trans           &kp LG(LEFT_ARROW)  &trans      &trans          &kp RG(RIGHT_ARROW)  &trans          &kp DOWN_ARROW        &trans           &trans
+&trans        &trans          &trans                &trans           &trans              &trans      &kp LEFT_ARROW  &kp RIGHT_ARROW                                                             &trans
             >;
         };
 
@@ -132,7 +132,7 @@
 
         layer_7 {
             bindings = <
-&kp Q   &trans     &kp LS(LG(UP_ARROW))  &trans     &trans                                                  &trans  &trans  &trans  &kp MINUS  &trans
+&kp Q   &trans     &kp LS(LG(UP_ARROW))  &trans     &trans                                                  &trans  &trans  &kp AT  &kp MINUS  &trans
 &trans  &kp LC(A)  &trans                &kp LC(F)  &trans     &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &trans  &trans  &trans  &trans     &trans
 &trans  &kp LC(Z)  &kp LC(X)             &kp LC(V)  &kp LC(V)  &kp LG(V)               &trans               &trans  &trans  &trans  &trans     &trans
 &trans  &trans     &trans                &trans     &trans     &trans                  &trans               &trans                             &trans
