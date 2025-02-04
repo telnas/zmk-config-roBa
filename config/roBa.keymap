@@ -132,10 +132,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans     &kp LS(LG(UP_ARROW))  &trans     &trans                            &trans  &trans  &trans  &kp MINUS  &trans
-&trans  &kp LC(A)  &trans                &kp LC(F)  &trans     &trans         &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &kp LC(Z)  &kp LC(X)             &kp LC(V)  &kp LC(V)  &kp LG(V)      &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans                &trans     &trans     &trans         &trans  &trans                             &trans
+&trans  &trans     &kp LS(LG(UP_ARROW))  &trans     &trans                                                  &trans  &trans  &trans  &kp MINUS  &trans
+&trans  &kp LC(A)  &trans                &kp LC(F)  &trans     &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &trans  &trans  &trans  &trans     &trans
+&trans  &kp LC(Z)  &kp LC(X)             &kp LC(V)  &kp LC(V)  &kp LG(V)               &trans               &trans  &trans  &trans  &trans     &trans
+&trans  &trans     &trans                &trans     &trans     &trans                  &trans               &trans                             &trans
             >;
         };
 
