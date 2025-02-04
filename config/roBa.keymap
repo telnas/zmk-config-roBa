@@ -114,9 +114,9 @@
 
         SCROLL {
             bindings = <
-&kp LA(F4)    &kp RG(M)       &kp LS(LG(UP_ARROW))  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)                              &kp RG(DOWN_ARROW)   &kp RG(UP_ARROW)  &kp RS(RG(UP_ARROW))  &kp LG(M)        &kp RA(F4)
+&kp LA(F4)    &kp RG(M)       &kp LS(LG(UP_ARROW))  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)                              &kp RG(DOWN_ARROW)   &kp RG(UP_ARROW)  &kp RS(RG(UP_ARROW))  &kp RG(M)        &kp RA(F4)
 &kp HOME      &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW   &kp END             &trans      &trans          &kp HOME             &kp LEFT_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW  &kp END
-&kp LEFT_ALT  &kp TAB         &kp DOWN_ARROW        &trans            &kp LG(LEFT_ARROW)  &trans      &trans          &kp RG(RIGHT_ARROW)  &trans            &kp DOWN_ARROW        &kp TAB          &kp RIGHT_ALT
+&kp LEFT_ALT  &kp TAB         &kp DOWN_ARROW        &kp LA(TAB)       &kp LG(LEFT_ARROW)  &trans      &trans          &kp RG(RIGHT_ARROW)  &kp RA(TAB)       &kp DOWN_ARROW        &kp TAB          &kp RIGHT_ALT
 &trans        &trans          &trans                &trans            &trans              &trans      &kp LEFT_ARROW  &kp RIGHT_ARROW                                                               &trans
             >;
         };
@@ -132,10 +132,10 @@
 
         layer_7 {
             bindings = <
-&kp Q   &trans     &kp LS(LG(UP_ARROW))  &trans     &trans                                                  &trans  &trans  &kp AT  &kp MINUS  &trans
-&trans  &kp LC(A)  &trans                &kp LC(F)  &trans     &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &trans  &trans  &trans  &trans     &trans
-&trans  &kp LC(Z)  &kp LC(X)             &kp LC(C)  &kp LC(V)  &kp LG(V)               &trans               &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans                &trans     &trans     &trans                  &trans               &trans                             &trans
+&kp LS(NUMBER_1)  &kp Q      &kp AT     &kp F5     &kp LS(LG(S))                                               &kp RG(RS(S))  &kp F5  &kp AT            &kp MINUS          &trans
+&trans            &kp LC(A)  &trans     &kp LC(F)  &trans         &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &trans         &trans  &kp SEMICOLON     &kp COLON          &trans
+&trans            &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LG(V)               &trans               &trans         &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans            &trans     &trans     &trans     &trans         &trans                  &trans               &trans                                                      &trans
             >;
         };
     };
