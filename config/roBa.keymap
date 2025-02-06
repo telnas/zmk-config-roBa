@@ -85,10 +85,10 @@
 
         NUM {
             bindings = <
-&kp MINUS  &kp N7        &kp N8        &kp N9        &kp BACKSPACE                         &kp MINUS  &kp N7        &kp N8        &kp N9        &kp BACKSPACE
-&kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_SHIFT  &trans      &trans    &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RSHIFT
-&kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp TAB         &trans      &trans    &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp TAB
-&trans     &trans        &trans        &trans        &trans          &trans      &kp LEFT  &kp RIGHT                                            &tog 1
+&kp MINUS         &kp N7          &kp N8        &kp N9        &kp BACKSPACE                         &kp MINUS  &kp N7        &kp N8        &kp N9        &kp BACKSPACE
+&kp N0            &kp NUMBER_4    &kp N5        &kp NUMBER_6  &kp LEFT_SHIFT  &trans      &trans    &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RSHIFT
+&kp COMMA         &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp TAB         &trans      &trans    &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp TAB
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans        &trans        &trans          &trans      &kp LEFT  &kp RIGHT                                            &tog 1
             >;
         };
 
@@ -114,10 +114,10 @@
 
         SCROLL {
             bindings = <
-&kp LA(F4)  &kp RG(M)       &kp LS(LG(UP_ARROW))  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)                              &kp RG(DOWN_ARROW)   &kp RG(UP_ARROW)  &kp RS(RG(UP_ARROW))  &kp RG(M)        &kp RA(F4)
-&kp HOME    &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW   &kp END             &trans      &trans          &kp HOME             &kp LEFT_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW  &kp END
-&trans      &kp LEFT_ALT    &kp DOWN_ARROW        &kp TAB           &kp LG(LEFT_ARROW)  &trans      &trans          &kp RG(RIGHT_ARROW)  &kp TAB           &kp DOWN_ARROW        &kp RIGHT_ALT    &trans
-&trans      &trans          &trans                &trans            &trans              &trans      &kp LEFT_ARROW  &kp RIGHT_ARROW                                                               &trans
+&kp LA(F4)        &kp RG(M)       &kp LS(LG(UP_ARROW))  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)                                           &kp RG(DOWN_ARROW)   &kp RG(UP_ARROW)  &kp RS(RG(UP_ARROW))  &kp RG(M)        &kp RA(F4)
+&kp HOME          &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW   &kp END             &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp HOME             &kp LEFT_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW  &kp END
+&trans            &kp LEFT_ALT    &kp DOWN_ARROW        &kp TAB           &kp LG(LEFT_ARROW)  &kp LEFT_SHIFT        &kp RIGHT_SHIFT    &kp RG(RIGHT_ARROW)  &kp TAB           &kp DOWN_ARROW        &kp RIGHT_ALT    &trans
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                &trans            &trans              &trans                &kp LEFT_ARROW     &kp RIGHT_ARROW                                                               &trans
             >;
         };
 
