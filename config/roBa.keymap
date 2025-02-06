@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp TAB             &kp W           &kp E         &kp R     &kp T                                                                   &kp Y          &kp U  &kp I                   &kp O              &kp P
-&kp A               &kp S           &kp D         &kp F     &kp G     &lt_to_layer_0 2 LS(NUMBER_2)      &lt_to_layer_0 2 MINUS     &kp H          &kp J  &kp K                   &kp L              &kp ENTER
-&lt_to_layer_0 7 Z  &kp X           &kp C         &kp V     &kp B     &lt_to_layer_0 7 EXCLAMATION       &lt_to_layer_0 7 QUESTION  &kp N          &kp M  &lt_to_layer_0 5 COMMA  &mt RIGHT_ALT DOT  &mkp MB1
-&kp LCTRL           &kp LEFT_SHIFT  &kp LEFT_GUI  &mkp MB2  &mkp MB1  &lt_to_layer_0 5 SPACE             &lt_to_layer_0 6 GRAVE     &kp BACKSPACE                                                    &mkp MB2
+&lt_to_layer_0 2 TAB  &kp W           &kp E         &kp R     &kp T                                                                   &kp Y          &kp U  &kp I                   &kp O              &kp P
+&kp A                 &kp S           &kp D         &kp F     &kp G     &lt_to_layer_0 2 LS(NUMBER_2)      &lt_to_layer_0 2 MINUS     &kp H          &kp J  &kp K                   &kp L              &kp ENTER
+&lt_to_layer_0 7 Z    &kp X           &kp C         &kp V     &kp B     &lt_to_layer_0 7 EXCLAMATION       &lt_to_layer_0 7 QUESTION  &kp N          &kp M  &lt_to_layer_0 5 COMMA  &mt RIGHT_ALT DOT  &mkp MB1
+&kp LCTRL             &kp LEFT_SHIFT  &kp LEFT_GUI  &mkp MB2  &mkp MB1  &lt_to_layer_0 5 SPACE             &lt_to_layer_0 6 GRAVE     &kp BACKSPACE                                                    &mkp MB2
             >;
         };
 
