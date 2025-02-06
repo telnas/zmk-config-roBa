@@ -133,8 +133,8 @@
         layer_7 {
             bindings = <
 &kp LS(NUMBER_1)  &kp Q      &kp LS(NUMBER_2)  &kp F5     &kp LS(LG(S))                                               &kp RG(RS(S))  &kp F5  &kp RS(NUMBER_2)  &kp MINUS   &kp RS(N5)
-&trans            &kp LC(A)  &trans            &kp LC(F)  &trans         &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &trans         &trans  &kp SEMICOLON     &kp COLON   &kp RS(ENTER)
-&trans            &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)      &kp LG(V)               &trans               &trans         &trans  &kp RS(N8)        &kp RS(N9)  &kp SLASH
+&trans            &kp LC(A)  &kp LC(X)         &kp LC(F)  &trans         &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &trans         &trans  &kp SEMICOLON     &kp COLON   &kp RS(ENTER)
+&trans            &kp LC(Z)  &kp LC(C)         &kp LC(V)  &kp LG(V)      &trans                  &trans               &trans         &trans  &kp RS(N8)        &kp RS(N9)  &kp SLASH
 &trans            &trans     &trans            &trans     &trans         &trans                  &trans               &trans                                               &trans
             >;
         };
