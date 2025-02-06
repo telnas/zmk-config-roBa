@@ -116,8 +116,8 @@
             bindings = <
 &kp LA(F4)        &kp RG(M)       &kp LS(LG(UP_ARROW))  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)                                           &kp RG(DOWN_ARROW)   &kp RG(UP_ARROW)  &kp RS(RG(UP_ARROW))  &kp RG(M)        &kp RA(F4)
 &kp HOME          &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW   &kp END             &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp HOME             &kp LEFT_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW  &kp END
-&trans            &kp LEFT_ALT    &kp DOWN_ARROW        &kp TAB           &kp LG(LEFT_ARROW)  &kp LEFT_SHIFT        &kp RIGHT_SHIFT    &kp RG(RIGHT_ARROW)  &kp TAB           &kp DOWN_ARROW        &kp RIGHT_ALT    &trans
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                &trans            &trans              &trans                &kp LEFT_ARROW     &kp RIGHT_ARROW                                                               &trans
+&trans            &kp LEFT_ALT    &kp DOWN_ARROW        &kp TAB           &kp LG(LEFT_ARROW)  &kp LEFT_SHIFT        &kp RIGHT_SHIFT    &kp RG(RIGHT_ARROW)  &kp TAB           &kp DOWN_ARROW        &kp RIGHT_ALT    &mkp MB1
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                &mkp MB2          &mkp MB1            &trans                &kp LEFT_ARROW     &kp RIGHT_ARROW                                                               &mkp MB2
             >;
         };
 
