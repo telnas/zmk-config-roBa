@@ -147,4 +147,15 @@
 
         MAC_SHORTCUT_layer {
             bindings = <
-&kp LS(NUMBER_1)  &kp Q      &kp LS(NUMBER_2)  &kp F5     &kp LS(LG(S
+&kp LS(NUMBER_1)  &kp Q      &kp LS(NUMBER_2)  &kp F5     &kp LS(LG(S))                                               &kp RG(RS(S))  &kp F5  &kp LBKT       &kp MINUS   &kp RS(N5)
+&trans            &kp LG(A)  &kp LG(X)         &kp LG(F)  &kp LBKT       &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &trans         &trans  &kp SEMICOLON  &kp COLON   &kp RS(ENTER)
+&trans            &kp LG(Z)  &kp LG(C)         &kp LG(V)  &kp LG(V)      &trans                  &trans               &trans         &trans  &kp RS(N8)     &kp RS(N9)  &kp SLASH
+&trans            &trans     &trans            &trans     &trans         &trans                  &trans               &trans                                            &none
+            >;
+        };
+
+        MAC_SCROLL_layer {
+            bindings = <
+&kp LG(Q)     &kp LG(M)       &kp LS(LG(UP_ARROW))  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)                                      &kp LG(DOWN_ARROW)   &kp LG(UP_ARROW)  &kp RS(LG(UP_ARROW))  &kp LG(M)        &kp LG(Q)
+&kp HOME      &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW   &kp END             &kp LEFT_GUI        &kp RIGHT_GUI   &kp HOME             &kp LEFT_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW  &kp END
+&trans        &kp LEFT_ALT    &kp DOWN_ARROW        &kp TAB           &
