@@ -67,19 +67,19 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 2 TAB  &kp W           &kp E         &kp R     &kp T                                                                  &kp Y                        &kp U  &kp I                   &kp O              &kp P
-&kp A                 &kp S           &kp D         &kp F     &kp G     &kp LEFT_ALT                      &lt_to_layer_0 2 MINUS     &kp H                        &kp J  &kp K                   &kp L              &mt RIGHT_SHIFT ENTER
-&lt_to_layer_0 7 Z    &kp X           &kp C         &kp V     &kp B     &lt_to_layer_0 7 EXCLAMATION      &lt_to_layer_0 7 QUESTION  &kp N                        &kp M  &lt_to_layer_0 5 COMMA  &mt RIGHT_ALT DOT  &mkp MB1
-&kp LCTRL             &kp LEFT_SHIFT  &kp LEFT_GUI  &mkp MB2  &mkp MB1  &lt_to_layer_0 5 SPACE            &lt_to_layer_0 6 GRAVE     &mt RIGHT_CONTROL BACKSPACE                                                    &mkp MB2
+&lt_to_layer_0 2 TAB  &kp W           &kp E         &kp R     &lt_to_layer_0 1 Y                                                               &lt_to_layer_0 1 Y           &kp U  &kp I                   &kp O              &kp P
+&kp A                 &kp S           &kp D         &kp F     &kp G               &kp LEFT_ALT                      &lt_to_layer_0 2 MINUS     &kp H                        &kp J  &kp K                   &kp L              &mt RIGHT_SHIFT ENTER
+&lt_to_layer_0 7 Z    &kp X           &kp C         &kp V     &kp B               &lt_to_layer_0 7 EXCLAMATION      &lt_to_layer_0 7 QUESTION  &kp N                        &kp M  &lt_to_layer_0 5 COMMA  &mt RIGHT_ALT DOT  &mkp MB1
+&kp LCTRL             &kp LEFT_SHIFT  &kp LEFT_GUI  &mkp MB2  &mkp MB1            &lt_to_layer_0 5 SPACE            &lt_to_layer_0 6 GRAVE     &mt RIGHT_CONTROL BACKSPACE                                                    &mkp MB2
             >;
         };
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &kp F13
+&trans  &kp F7  &kp F8  &kp F9  &kp F12                      &trans  &kp F7  &kp F8  &kp F9  &kp F12
+&trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10
+&trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                          &trans
             >;
         };
 
@@ -130,10 +130,10 @@
 
         layer_7 {
             bindings = <
-&kp LS(NUMBER_1)  &kp Q      &kp LS(NUMBER_2)  &kp F5     &kp LS(LG(S))                                               &kp RG(RS(S))  &kp F5  &trans         &kp MINUS   &kp RS(N5)
-&trans            &kp LC(A)  &kp LC(X)         &kp LC(F)  &trans         &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &trans         &trans  &kp SEMICOLON  &kp COLON   &kp RS(ENTER)
-&trans            &kp LC(Z)  &kp LC(C)         &kp LC(V)  &kp LG(V)      &trans                  &trans               &trans         &trans  &kp RS(N8)     &kp RS(N9)  &kp SLASH
-&trans            &trans     &trans            &trans     &trans         &trans                  &trans               &trans                                            &trans
+&kp LS(NUMBER_1)  &kp Q      &kp LS(NUMBER_2)  &kp F5     &kp LS(LG(S))                                                  &kp RG(RS(S))  &kp F5  &kp LEFT_BRACKET  &kp MINUS   &kp RS(N5)
+&trans            &kp LC(A)  &kp LC(X)         &kp LC(F)  &kp LEFT_BRACKET  &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)  &trans         &trans  &kp SEMICOLON     &kp COLON   &kp RS(ENTER)
+&trans            &kp LC(Z)  &kp LC(C)         &kp LC(V)  &kp LG(V)         &trans                  &trans               &trans         &trans  &kp RS(N8)        &kp RS(N9)  &kp SLASH
+&trans            &trans     &trans            &trans     &trans            &trans                  &trans               &trans                                               &trans
             >;
         };
     };
