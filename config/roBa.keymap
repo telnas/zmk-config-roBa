@@ -128,7 +128,7 @@
             bindings = <
 &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &to 1           &trans        &trans        &trans        &to 0         &trans      &kp LG(L)  &to 1         &trans        &trans        &trans        &to 0
-&bt BT_CLR_ALL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans      &trans     &trans        &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &bt BT_CLR_ALL
+&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans      &trans     &trans        &trans        &trans        &trans        &bt BT_CLR_ALL
 &trans          &trans        &trans        &trans        &trans        &trans      &trans     &kp K_POWER                                             &none
             >;
         };
