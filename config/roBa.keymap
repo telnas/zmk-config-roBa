@@ -54,6 +54,7 @@
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
+            hold-trigger-key-positions = <0>;
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
@@ -158,4 +159,9 @@
             bindings = <
 &kp LG(Q)     &kp LG(M)       &kp LS(LG(UP_ARROW))  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)                                      &kp LG(DOWN_ARROW)   &kp LG(UP_ARROW)  &kp RS(LG(UP_ARROW))  &kp LG(M)        &kp LG(Q)
 &kp HOME      &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW   &kp END             &kp LEFT_GUI        &kp RIGHT_GUI   &kp HOME             &kp LEFT_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW  &kp END
-&trans        &kp LEFT_ALT    &kp DOWN_ARROW        &kp TAB           &kp LG(LEFT_ARROW)  &kp LEFT_SHIFT      &kp DOWN_ARROW
+&trans        &kp LEFT_ALT    &kp DOWN_ARROW        &kp TAB           &kp LG(LEFT_ARROW)  &kp LEFT_SHIFT      &kp DOWN_ARROW  &kp LG(RIGHT_ARROW)  &kp TAB           &kp DOWN_ARROW        &kp RIGHT_ALT    &mkp MB1
+&kp LEFT_GUI  &kp LEFT_SHIFT  &kp LG(W)             &mkp MB2          &mkp MB1            &trans              &kp LEFT_ARROW  &kp RIGHT_ARROW                                                               &none
+            >;
+        };
+    };
+};
