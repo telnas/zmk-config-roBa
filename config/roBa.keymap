@@ -161,3 +161,7 @@
         };
     };
 };
+
+&trackball {
+    scroll-layers = <5 9>;
+};
