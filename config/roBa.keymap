@@ -10,6 +10,15 @@
 };
 
 / {
+    // 【追加】条件付きレイヤー：Macモード(1)でスクロール(5)を押すと、自動的にQレイヤー(9)が被さる
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        mac_scroll {
+            if-layers = <1 5>;
+            then-layer = <9>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -49,11 +58,9 @@
 
     behaviors {
         // すべてのキー共通（サクサク切り替えの200ms）
-
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             bindings = <&mo>, <&to_layer_0>;
-
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "balanced";
@@ -73,11 +80,12 @@
         };
 
         mac_layer {
+            // 右手COMMAと左手SPACEの飛び先を「5」に変更（条件付きレイヤーで自動的に9に飛びます）
             bindings = <
 &lt_to_layer_0 2 TAB  &kp W               &kp E         &kp R     &kp T                                                                  &kp Y                    &kp U  &kp I                   &kp O              &kp P
 &kp A                 &kp S               &kp D         &kp F     &kp G     &kp LEFT_ALT                      &lt_to_layer_0 2 MINUS     &kp H                    &kp J  &kp K                   &kp L              &mt RIGHT_SHIFT ENTER
-&lt_to_layer_0 8 Z    &lt_to_layer_0 2 X  &kp C         &kp V     &kp B     &lt_to_layer_0 8 EXCLAMATION      &lt_to_layer_0 8 QUESTION  &kp N                    &kp M  &lt_to_layer_0 9 COMMA  &mt RIGHT_ALT DOT  &mkp MB1
-&kp LEFT_GUI          &kp LEFT_SHIFT      &kp LEFT_ALT  &mkp MB2  &mkp MB1  &lt_to_layer_0 9 SPACE            &lt 6 RG(SPACE)            &mt RIGHT_GUI BACKSPACE                                                    &mkp MB2
+&lt_to_layer_0 8 Z    &lt_to_layer_0 2 X  &kp C         &kp V     &kp B     &lt_to_layer_0 8 EXCLAMATION      &lt_to_layer_0 8 QUESTION  &kp N                    &kp M  &lt_to_layer_0 5 COMMA  &mt RIGHT_ALT DOT  &mkp MB1
+&kp LEFT_GUI          &kp LEFT_SHIFT      &kp LEFT_ALT  &mkp MB2  &mkp MB1  &lt_to_layer_0 5 SPACE            &lt 6 RG(SPACE)            &mt RIGHT_GUI BACKSPACE                                                    &mkp MB2
             >;
         };
 
